@@ -119,8 +119,8 @@ set sidescrolloff=15
 set sidescroll=1
 
 " Navigate properly when lines are wrapped
-nnoremap j gj
-nnoremap k gk
+" nnoremap j gj
+" nnoremap k gk
 
 " Always use vertical diffs
 set diffopt+=vertical
