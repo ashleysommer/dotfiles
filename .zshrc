@@ -61,7 +61,7 @@ export POWERLINE_CONFIG_COMMAND=/home/som05d/.local/bin/powerline-config
 plugins=(git git-extras bower debian docker mercurial node npm pip python sudo systemd tmux)
 
 # User configuration
-
+export PATH="$HOME/.local/bin:$PATH"
 #  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -89,5 +89,6 @@ source /home/som05d/.local/lib/python2.7/site-packages/powerline/bindings/zsh/po
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias nano="/usr/local/bin/micro"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
